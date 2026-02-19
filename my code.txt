@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BREAKING BAD NETFLEX</title>
+    <style>*{ background-color: rgb(255, 255, 255);
+    
+    font-family: sans-serif
+    }</style>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.cdnfonts.com/css/samsung-sharp-sans" rel="stylesheet">
+                
+    
+</head>
+<body>  
+    
+    <h6>⚗ AMC Original Series · 2008–2013</h6>
+    <h1>BREAKING <br> BAD</h1>
+    <h5><div class="hero-meta">
+      <span class="rating">★ 9.5</span>
+      <span class="dot"></span>
+      <span class="tag">TV-MA</span>
+      <span class="dot"></span>
+      <span class="tag">5 Seasons</span>
+      <span class="dot"></span>
+      <span class="tag">62 Episodes</span>
+      <span class="dot"></span>
+      <span class="tag">Drama</span>
+    </div></h5>
+        <audio autoplay src="./song/Breaking Bad - Extended.mp3" loop controls></audio><hr>
+        <p><h4>A high school chemistry teacher diagnosed with terminal lung cancer teams up with a former student to secure his family's financial future, <br> by manufacturing and selling methamphetamine. A descent into moral darkness unlike any other.
+   </h4>
+       </p>
+       <div class="stats-bar reveal visible">
+  <div class="stat">
+    <span class="stat-num">9.5</span>
+    <span class="stat-label">IMDb Rating</span>
+  </div>
+  <div class="stat-divider"></div>
+  <div class="stat">
+    <span class="stat-num">62</span>
+    <span class="stat-label">Episodes</span>
+  </div>
+  <div class="stat-divider"></div>
+  <div class="stat">
+    <span class="stat-num">16</span>
+    <span class="stat-label">Emmy Awards</span>
+  </div>
+  <div class="stat-divider"></div>
+  <div class="stat">
+    <span class="stat-num">5</span>
+    <span class="stat-label">Seasons</span>
+  </div>
+  <div class="stat-divider"></div>
+  <div class="stat">
+    <span class="stat-num">#1</span>
+    <span class="stat-label">Best Drama Ever</span>
+  </div>
+</div>
+<section class="showcase" id="showcase">
+  <div class="section-title reveal visible">FEATURED SHOWCASE</div>
+  <div class="showcase-grid reveal visible">
+
+    <!-- Poster -->
+
+    <h2>Breaking Bad S01</h2>
+    <div class="showcase-poster glow-border">
+      <img src="./posters/1.jpeg" alt="poster not found"  height="600px" width="400px" >
+      <!-- Fallback poster -->
+      
+      <div class="poster-glow"></div>
+    </div>
+
+    <!-- Trailer + Audio -->
+    <div class="showcase-right">
+      <!-- Trailer -->
+      <div class="trailer-wrap">
+        <!-- Fallback visual if no video embeds -->
+        
+        <video src="./trailers/Breaking Bad Trailer (First Season).mp4" controls height="450px"></video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+                <hr>
+                <h2>Breaking Bad S02        </h2> 
+    <div class="showcase-poster glow-border">
+      <img src="./posters/2.jpg" alt="poster not found"  height="600px" width="400px" >
+      <!-- Fallback poster -->
+      
+      <div class="poster-glow"></div>
+    </div>
+
+    <!-- Trailer + Audio -->
+    <div class="showcase-right">
+      <!-- Trailer -->
+      <div class="trailer-wrap">
+        <!-- Fallback visual if no video embeds -->
+        
+        <video src="./trailers/Breaking Bad Season 2 Trailer -- BEING BAD [HD].mp4"controls height="450px"></video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<hr>
+<h2>Breaking Bad S03       </h2>
+    <div class="showcase-poster glow-border">
+      <img src="./posters/3.jpeg" alt="poster not found"  height="600px" width="400px" >
+      <!-- Fallback poster -->
+      
+      <div class="poster-glow"></div>
+    </div>
+
+    <!-- Trailer + Audio -->
+    <div class="showcase-right">
+      <!-- Trailer -->
+      <div class="trailer-wrap">
+        <!-- Fallback visual if no video embeds -->
+        
+        <video src="./trailers/Breaking Bad Deluxe Edition_ Season 3 Trailer.mp4"controls height="450px"></video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<hr>
+<h2>Breaking Bad S04        </h2>
+    <div class="showcase-poster glow-border">
+      <img src="./posters/4.jpg" alt="poster not found"  height="600px" width="400px" >
+      <!-- Fallback poster -->
+      
+      <div class="poster-glow"></div>
+    </div>
+
+    <!-- Trailer + Audio -->
+    <div class="showcase-right">
+      <!-- Trailer -->
+      <div class="trailer-wrap">
+        <!-- Fallback visual if no video embeds -->
+        
+        <video src="./trailers/Breaking Bad - Official Season 4 Trailer - HD.mp4" controls height="450px"></video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ <hr>
+ <h2>Breaking Bad S05       </h2>
+    <div class="showcase-poster glow-border">
+      <img src="./posters/5.jpg"alt="poster not found"  height="600px" width="400px" >
+      <!-- Fallback poster -->
+      
+      <div class="poster-glow"></div>
+    </div>
+
+    <!-- Trailer + Audio -->
+    <div class="showcase-right">
+      <!-- Trailer -->
+      <div class="trailer-wrap">
+        <!-- Fallback visual if no video embeds -->
+        
+        <video src="./trailers/Breaking Bad Season 5 Promo Trailer    The End Is Near    HD]   YouTube [720p].mp4" controls height="450px"></video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<hr>
+
+
+
+</body>
+</html>

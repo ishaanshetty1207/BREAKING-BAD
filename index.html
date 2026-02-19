@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Breaking Bad — ChemFlix</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300;400;600&family=Special+Elite&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- ══════════════════════════════════════════
+       NAVBAR
+  ══════════════════════════════════════════ -->
+  <nav>
+    <a href="#" class="logo">Chem<span>Flix</span></a>
+    <ul>
+      <li><a href="#seasons">Seasons</a></li>
+      <li><a href="#characters">Cast</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+    <span class="nav-badge">★ 9.5 / 10</span>
+  </nav>
+
+  <!-- ══════════════════════════════════════════
+       HERO
+  ══════════════════════════════════════════ -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+
+    <!-- Molecule decoration -->
+    <svg class="hero-molecule" width="210" height="210" viewBox="0 0 210 210">
+      <circle cx="105" cy="105" r="13" fill="#a8e63d" />
+      <circle cx="55" cy="55" r="8" fill="#a8e63d" />
+      <circle cx="155" cy="55" r="8" fill="#a8e63d" />
+      <circle cx="55" cy="155" r="8" fill="#a8e63d" />
+      <circle cx="155" cy="155" r="8" fill="#a8e63d" />
+      <circle cx="22" cy="22" r="5" fill="#f5d020" />
+      <circle cx="188" cy="22" r="5" fill="#f5d020" />
+      <line x1="105" y1="105" x2="55" y2="55" stroke="#a8e63d" stroke-width="1.5" />
+      <line x1="105" y1="105" x2="155" y2="55" stroke="#a8e63d" stroke-width="1.5" />
+      <line x1="105" y1="105" x2="55" y2="155" stroke="#a8e63d" stroke-width="1.5" />
+      <line x1="105" y1="105" x2="155" y2="155" stroke="#a8e63d" stroke-width="1.5" />
+      <line x1="55" y1="55" x2="22" y2="22" stroke="#f5d020" stroke-width="1" />
+      <line x1="155" y1="55" x2="188" y2="22" stroke="#f5d020" stroke-width="1" />
+    </svg>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow">⚗ AMC Original Series · 2008 – 2013</p>
+
+      <h1 class="hero-title">
+        BREAKING<br />
+        <span class="green">BAD</span>
+      </h1>
+
+      <div class="hero-meta">
+        <span class="rating">★ 9.5</span>
+        <span class="dot"></span>
+        <span class="tag">TV-MA</span>
+        <span class="dot"></span>
+        <span class="tag">5 Seasons</span>
+        <span class="dot"></span>
+        <span class="tag">62 Episodes</span>
+        <span class="dot"></span>
+        <span class="tag">Drama</span>
+      </div>
+
+      <p class="hero-desc">
+        A high school chemistry teacher diagnosed with terminal lung cancer
+        teams up with a former student to secure his family's financial future
+        — by manufacturing and selling methamphetamine. A descent into moral
+        darkness unlike any other.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#seasons" class="btn btn-primary">
+          <svg width="12" height="12" viewBox="0 0 24 24">
+            <polygon points="5,3 19,12 5,21" fill="currentColor" />
+          </svg>
+          Watch Now
+        </a>
+        <a href="#characters" class="btn btn-outline">Meet the Cast</a>
+      </div>
+    </div>
+
+    <!-- Scroll cue -->
+    <div style="
+          position: absolute;
+          bottom: 2rem;
+          right: 5%;
+          z-index: 2;
+          color: var(--muted);
+          font-size: 0.6rem;
+          letter-spacing: 0.2em;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 0.4rem;
+        ">
+      SCROLL
+      <svg width="10" height="18" viewBox="0 0 10 18">
+        <path d="M5 0 L5 14 M1 10 L5 14 L9 10" stroke="currentColor" stroke-width="1.5" fill="none" />
+      </svg>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       STATS BAR
+  ══════════════════════════════════════════ -->
+  <div class="stats-bar reveal">
+    <div class="stat">
+      <span class="stat-num">9.5</span>
+      <span class="stat-label">IMDb Rating</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat">
+      <span class="stat-num">62</span>
+      <span class="stat-label">Episodes</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat">
+      <span class="stat-num">16</span>
+      <span class="stat-label">Emmy Awards</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat">
+      <span class="stat-num">5</span>
+      <span class="stat-label">Seasons</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat">
+      <span class="stat-num">#1</span>
+      <span class="stat-label">Best Drama Ever</span>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       AUDIO PLAYER
+  ══════════════════════════════════════════ -->
+  <div class="audio-top reveal">
+    <span class="audio-top-label">⚗ Soundtrack</span>
+    <audio src="./song/Breaking Bad - Extended.mp3" autoplay loop controls></audio>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       SEASONS
+  ══════════════════════════════════════════ -->
+  <section class="seasons-section" id="seasons">
+    <div class="section-title reveal">ALL SEASONS</div>
+
+    <!-- Season 1 -->
+    <div class="season-block reveal">
+      <div class="season-poster-wrap">
+        <div class="season-badge">Season 01</div>
+        <img src="./posters/1.jpeg" alt="Breaking Bad Season 1 Poster" />
+      </div>
+      <div class="season-main">
+        <div class="season-heading">
+          <span class="s-num">01</span>
+          <span>The Cook Begins</span>
+        </div>
+        <div class="season-meta-row">
+          <span class="s-chip">2008</span>
+          <span class="s-chip">7 Episodes</span>
+          <span class="s-chip">The Origin</span>
+        </div>
+        <p class="season-desc">
+          Walter White receives a terminal cancer diagnosis and makes a
+          desperate choice. He partners with small-time drug dealer Jesse
+          Pinkman to cook methamphetamine, setting in motion a transformation
+          that will consume his entire identity.
+        </p>
+        <div class="season-video-wrap">
+          <video poster="./poster for vedio like thumbnail/1.jpg"
+            src="./trailers/Breaking Bad Trailer (First Season).mp4" controls></video>
+        </div>
+      </div>
+    </div>
+
+    <!-- Season 2 -->
+    <div class="season-block reverse reveal">
+      <div class="season-poster-wrap">
+        <div class="season-badge">Season 02</div>
+        <img src="./posters/2.jpg" alt="Breaking Bad Season 2 Poster" />
+      </div>
+      <div class="season-main">
+        <div class="season-heading">
+          <span class="s-num">02</span>
+          <span>No Going Back</span>
+        </div>
+        <div class="season-meta-row">
+          <span class="s-chip">2009</span>
+          <span class="s-chip">13 Episodes</span>
+          <span class="s-chip">Consequences</span>
+        </div>
+        <p class="season-desc">
+          The criminal world deepens. Walter and Jesse's operation grows, but
+          so does the danger and the moral cost. Every decision leaves a mark
+          — on them and everyone around them.
+        </p>
+        <div class="season-video-wrap">
+          <video poster="./poster for vedio like thumbnail/2.jpeg"
+            src="./trailers/Breaking Bad Season 2 Trailer -- BEING BAD [HD].mp4" controls></video>
+        </div>
+      </div>
+    </div>
+
+    <!-- Season 3 -->
+    <div class="season-block reveal">
+      <div class="season-poster-wrap">
+        <div class="season-badge">Season 03</div>
+        <img src="./posters/3.jpeg" alt="Breaking Bad Season 3 Poster" />
+      </div>
+      <div class="season-main">
+        <div class="season-heading">
+          <span class="s-num">03</span>
+          <span>Heisenberg Rises</span>
+        </div>
+        <div class="season-meta-row">
+          <span class="s-chip">2010</span>
+          <span class="s-chip">13 Episodes</span>
+          <span class="s-chip">Turning Point</span>
+        </div>
+        <p class="season-desc">
+          Walter's alter ego Heisenberg dominates. Enter Gustavo Fring — a
+          chilling adversary whose calm exterior masks something far more
+          dangerous. The empire begins to take shape.
+        </p>
+        <div class="season-video-wrap">
+          <video poster="./poster for vedio like thumbnail/3.jpg"
+            src="./trailers/Breaking Bad Deluxe Edition_ Season 3 Trailer.mp4" controls></video>
+        </div>
+      </div>
+    </div>
+
+    <!-- Season 4 -->
+    <div class="season-block reverse reveal">
+      <div class="season-poster-wrap">
+        <div class="season-badge">Season 04</div>
+        <img src="./posters/4.jpg" alt="Breaking Bad Season 4 Poster" />
+      </div>
+      <div class="season-main">
+        <div class="season-heading">
+          <span class="s-num">04</span>
+          <span>Walt vs. Gus</span>
+        </div>
+        <div class="season-meta-row">
+          <span class="s-chip">2011</span>
+          <span class="s-chip">13 Episodes</span>
+          <span class="s-chip">All-Out War</span>
+        </div>
+        <p class="season-desc">
+          Two brilliant, dangerous men locked in a deadly chess match. The
+          tension between Walt and Gus reaches its boiling point. Only one can
+          survive — and both know it.
+        </p>
+        <div class="season-video-wrap">
+          <video poster="./poster for vedio like thumbnail/4.jpg"
+            src="./trailers/Breaking Bad - Official Season 4 Trailer - HD.mp4" controls></video>
+        </div>
+      </div>
+    </div>
+
+    <!-- Season 5 -->
+    <div class="season-block reveal">
+      <div class="season-poster-wrap">
+        <div class="season-badge">Season 05</div>
+        <img src="./posters/5.jpg" alt="Breaking Bad Season 5 Poster" />
+      </div>
+      <div class="season-main">
+        <div class="season-heading">
+          <span class="s-num">05</span>
+          <span>Say My Name</span>
+        </div>
+        <div class="season-meta-row">
+          <span class="s-chip">2012–2013</span>
+          <span class="s-chip">16 Episodes</span>
+          <span class="s-chip">The Finale</span>
+        </div>
+        <p class="season-desc">
+          Heisenberg rules his empire. But every empire falls. The most
+          devastating finale in television history — a conclusion that leaves
+          nothing unresolved and no one unchanged.
+        </p>
+        <div class="season-video-wrap">
+          <video poster="./poster for vedio like thumbnail/5.jpg"
+            src="./trailers/Breaking Bad Season 5 Promo Trailer    The End Is Near    HD]   YouTube [720p].mp4"
+            controls></video>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       CHARACTERS
+  ══════════════════════════════════════════ -->
+  <section class="chars-section" id="characters">
+    <div class="section-title reveal">MAIN CAST</div>
+    <div class="chars-grid reveal">
+      <div class="char-card">
+        <div class="char-top-line"></div>
+        <div class="char-img-wrap">
+          <img src="./cast pics/brayan cranston walter white .jpg" alt="Walter White" />
+        </div>
+        <div class="char-name">
+          Walter White
+          <span class="char-role">Heisenberg</span>
+        </div>
+      </div>
+
+      <div class="char-card">
+        <div class="char-top-line"></div>
+        <div class="char-img-wrap">
+          <img src="./cast pics/aaron paul jesse pinkman.jpg" alt="Jesse Pinkman" />
+        </div>
+        <div class="char-name">
+          Jesse Pinkman
+          <span class="char-role">Partner</span>
+        </div>
+      </div>
+
+      <div class="char-card">
+        <div class="char-top-line"></div>
+        <div class="char-img-wrap">
+          <img src="./cast pics/anna gunn skyler white wife.jpg" alt="Skyler White" />
+        </div>
+        <div class="char-name">
+          Skyler White
+          <span class="char-role">Wife</span>
+        </div>
+      </div>
+
+      <div class="char-card">
+        <div class="char-top-line"></div>
+        <div class="char-img-wrap">
+          <img src="./cast pics/dean joseph norris hank schrader cop fat.jpg" alt="Hank Schrader" />
+        </div>
+        <div class="char-name">
+          Hank Schrader
+          <span class="char-role">DEA Agent</span>
+        </div>
+      </div>
+
+      <div class="char-card">
+        <div class="char-top-line"></div>
+        <div class="char-img-wrap">
+          <img src="./cast pics/bob mrsaul.jpg" alt="Saul Goodman" />
+        </div>
+        <div class="char-name">
+          Saul Goodman
+          <span class="char-role">Attorney</span>
+        </div>
+      </div>
+
+      <div class="char-card">
+        <div class="char-top-line"></div>
+        <div class="char-img-wrap">
+          <img src="./cast pics/gaincarlo gus fring main guy.jpg" alt="Gus Fring" />
+        </div>
+        <div class="char-name">
+          Gus Fring
+          <span class="char-role">Kingpin</span>
+        </div>
+      </div>
+
+      <div class="char-card">
+        <div class="char-top-line"></div>
+        <div class="char-img-wrap">
+          <img src="./cast pics/mike old chacha.jpg" alt="Mike Ehrmantraut" />
+        </div>
+        <div class="char-name">
+          Mike Ehrmantraut
+          <span class="char-role">Fixer</span>
+        </div>
+      </div>
+
+      <div class="char-card">
+        <div class="char-top-line"></div>
+        <div class="char-img-wrap">
+          <img src="./cast pics/ranymon tuco salamanca .jpg" alt="Tuco Salamanca" />
+        </div>
+        <div class="char-name">
+          Tuco Salamanca
+          <span class="char-role">Cartel</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       RELATED UNIVERSE
+  ══════════════════════════════════════════ -->
+  <section class="related-section" id="related">
+    <div class="section-title reveal">RELATED UNIVERSE</div>
+    <div class="related-grid reveal">
+      <!-- Better Call Saul -->
+      <a href="https://youtu.be/HN4oydykJFc?si=ZG4boLjYZhOlKVKL" target="_blank" class="related-card">
+        <div class="related-poster">
+          <img src="./related/bcs.jpg" alt="Better Call Saul" />
+          <div class="related-overlay">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="var(--green)">
+              <path d="M8 5v14l11-7z" />
+            </svg>
+          </div>
+        </div>
+        <div class="related-info">
+          <h3>Better Call Saul</h3>
+          <p>The Prequel</p>
+        </div>
+      </a>
+
+      <!-- El Camino -->
+      <a href="https://www.youtube.com/watch?v=1JLUn2DFW4w" target="_blank" class="related-card">
+        <div class="related-poster">
+          <img src="./related/elcaamino.jpg" alt="El Camino: A Breaking Bad Movie" />
+          <div class="related-overlay">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="var(--green)">
+              <path d="M8 5v14l11-7z" />
+            </svg>
+          </div>
+        </div>
+        <div class="related-info">
+          <h3>El Camino</h3>
+          <p>The Sequel</p>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       QUOTE
+  ══════════════════════════════════════════ -->
+  <section class="quote-section">
+    <blockquote class="reveal">
+      "Say my name."<br />
+      <em>"…Heisenberg."</em><br />
+      "You're god damn right."
+    </blockquote>
+    <p class="quote-attr reveal" style="margin-top: 0.8rem">
+      — Walter White · Season 5, Episode 7
+    </p>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════ -->
+  <footer>
+    <div class="footer-logo">Chem<span>Flix</span></div>
+    <div class="footer-text">
+      Built with HTML &amp; CSS &nbsp;·&nbsp; Ishaan Shetty &nbsp;·&nbsp;
+      AI-assisted student project.".<br />
+      <span style="opacity: 0.5">Breaking Bad © AMC · Fan / Educational Project</span>
+    </div>
+  </footer>
+
+  <!-- ══════════════════════════════════════════
+       JAVASCRIPT
+  ══════════════════════════════════════════ -->
+  <script>
+    const io = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) e.target.classList.add("visible");
+        });
+      },
+      { threshold: 0.08 },
+    );
+
+    document.querySelectorAll(".reveal").forEach((el) => io.observe(el));
+  </script>
+</body>
+
+</html>
